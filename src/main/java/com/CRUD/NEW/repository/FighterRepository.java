@@ -16,4 +16,5 @@ public interface FighterRepository extends MongoRepository<Fighter, Integer> {
     List<Fighter> findAll(String WeightClass);
 
     public long count();
+
 }
