@@ -1,4 +1,4 @@
-package com.CRUD.NEW.Fighter;
+package com.CRUD.NEW.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

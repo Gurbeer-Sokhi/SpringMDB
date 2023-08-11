@@ -1,9 +1,11 @@
-package com.CRUD.NEW.Fighter;
+package com.CRUD.NEW.repository;
 
 import java.util.List;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
+
+import com.CRUD.NEW.model.Fighter;
 
 public interface FighterRepository extends MongoRepository<Fighter, Integer> {
 
